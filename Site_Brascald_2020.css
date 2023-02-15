@@ -1,0 +1,207 @@
+@-webkit-keyframes animate-fade-in-up
+{
+   0% { -webkit-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in-up
+{
+   0% { -moz-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@-moz-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+a.ISO
+{
+   color: #000000;
+   text-decoration: none;
+}
+a.ISO:visited
+{
+   color: #800080;
+   text-decoration: none;
+}
+a.ISO:active
+{
+   color: #FF0000;
+   text-decoration: none;
+}
+a.ISO:hover
+{
+   color: #000000;
+   text-decoration: none;
+}
+a.ISO_HOME
+{
+   color: #800000;
+   text-decoration: underline;
+}
+a.ISO_HOME:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.ISO_HOME:active
+{
+   color: #800000;
+   text-decoration: underline;
+}
+a.ISO_HOME:hover
+{
+   color: #800000;
+   text-decoration: underline;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}
+
+.text_banner{
+       position: absolute;
+    padding: 0px;
+    height: 100%;
+    margin: 0 0 8px 0;
+   text-align: center;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.whats-logo{
+   height: auto;
+   width: 15%;
+   margin: 2%;
+}
+
+.whats-logo_2{
+   height: auto;
+   width: 50%;
+   
+}
+
+.holder{
+   display: flex;
+   justify-content: center;
+}
+
+.img_01{
+      width: 50%;
+    display: inline-block; 
+  }
+
+.img_02{
+   width: 50%;
+    float: right;
+}
+
+.text_double{
+   color: #000000;
+   font-size: 30px;
+   text-align: center;
+   font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 969px)
+{
+}
+@media only screen and (max-width: 399px)
+{
+}
